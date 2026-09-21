@@ -618,7 +618,7 @@ select * from pacientes;
 
 select nome from pacientes;
 
-selectbnome, cpf from pacientes; do 
+select nome, cpf from pacientes; do 
 
 select * from medicos;
 
@@ -630,7 +630,23 @@ select nome, salario, data_contratacao from medicos;
 
 select nome as "nome de paciente" from pacientes;
 
-select * from especialidades;
+select * from internacoes;
 
-select
+select * from medicos;
+
+select nome from medicos;
+
+select nome, crm from medicos;
+
+select nome, cidade, estado from pacientes;
+
+select * from pacientes;
+
+select nome as 'Nome do Paciente' from pacientes;
+
+select salario as 'Salário do Médico' from medicos;
+
+select nome, sexo from pacientes where sexo = 'F';
+
+select nome, sexo from medicos where sexo = 'M';
 
